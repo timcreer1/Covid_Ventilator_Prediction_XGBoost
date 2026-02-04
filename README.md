@@ -60,9 +60,9 @@ covid-ventilator-prediction-xgboost/
 │   ├── *.csv                    # committed (metrics, thresholds, trials)
 │   └── *.json                   # committed (params + summaries)
 │
-└── reports/                     # optional supporting PDFs (Stage 1/2)
-    ├── OCMP5310_Stage1_Report.pdf
-    └── OCMP5310_Stage2_Report.pdf
+└── reports/                    
+    ├── Timothy_Creer_Stage1_Report.pdf
+    └── Timothy_Creer_Stage2_Report.pdf
 ```
 
 ---
