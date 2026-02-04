@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "target": "intubated",
+  "engineered_features": {
+    "comorbidity_count": {
+      "description": "Sum of detected binary comorbidity indicator columns (0/1).",
+      "columns_used": []
+    },
+    "severity_score": {
+      "description": "Additive score combining comorbidity_count with acute severity indicators (pneumonia/ICU) where available.",
+      "pneumonia_col": "pneumonia",
+      "icu_col": null,
+      "components": [
+        "pneumonia",
+        "comorbidity_count"
+      ]
+    }
+  },
+  "correlation_screening": {
+    "threshold_abs_corr": 0.05,
+    "numeric_features_kept": [
+      "intubed",
+      "pneumonia",
+      "age",
+      "clasiffication_final",
+      "severity_score",
+      "comorbidity_count"
+    ]
+  }
+}

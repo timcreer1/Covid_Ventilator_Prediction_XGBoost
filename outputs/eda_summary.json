@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "n_rows": 192706,
+  "n_cols": 22,
+  "target_positive_rate": 0.174649466025967,
+  "converted_binary_cols": [
+    "usmer",
+    "sex",
+    "patient_type",
+    "intubed",
+    "pneumonia",
+    "intubated"
+  ],
+  "top_missing_cols_pct": {},
+  "plots_saved": [
+    "target_distribution.png",
+    "missingness_top20.png",
+    "age_distribution.png",
+    "age_by_intubated_box.png",
+    "binary_feature_abs_diff_top20.png",
+    "corr_with_target_top20.png"
+  ]
+}

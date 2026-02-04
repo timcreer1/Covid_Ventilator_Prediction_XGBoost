@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-01-11T03:35:45Z",
+  "seed": 42,
+  "dataset_variant": "dataset_v2_severity.parquet",
+  "tune_strategy": "smote",
+  "best_value_f1": 0.3650288087505965,
+  "best_params": {
+    "n_estimators": 207,
+    "max_depth": 4,
+    "learning_rate": 0.011158374754385829,
+    "subsample": 0.9028683501145927,
+    "colsample_bytree": 0.8988449120235339,
+    "min_child_weight": 0.5393730428949445,
+    "gamma": 0.09731761863870503,
+    "reg_lambda": 3.064528529723978
+  }
+}

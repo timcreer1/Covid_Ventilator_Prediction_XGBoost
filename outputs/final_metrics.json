@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-01-11T04:20:52Z",
+  "seed": 42,
+  "dataset_variant": "dataset_v2_severity.parquet",
+  "final_model_meta": {
+    "created_utc": "2026-01-11T03:35:46Z",
+    "seed": 42,
+    "dataset_variant": "dataset_v2_severity.parquet",
+    "tune_strategy": "smote",
+    "best_params": {
+      "n_estimators": 207,
+      "max_depth": 4,
+      "learning_rate": 0.011158374754385829,
+      "subsample": 0.9028683501145927,
+      "colsample_bytree": 0.8988449120235339,
+      "min_child_weight": 0.5393730428949445,
+      "gamma": 0.09731761863870503,
+      "reg_lambda": 3.064528529723978
+    },
+    "cv_best_value_f1": 0.3650288087505965
+  },
+  "metrics_threshold_0p5": {
+    "threshold": 0.5,
+    "f1": 0.36256566683612945,
+    "recall": 0.635715346902392,
+    "precision": 0.25360042671724053,
+    "roc_auc": 0.6740997066217698,
+    "pr_auc": 0.27788843495096466,
+    "n_test": 38542,
+    "positive_rate_test": 0.17464065175652535
+  },
+  "best_f1_threshold_on_grid": {
+    "threshold": 0.44999999999999996,
+    "f1": 0.36283833211411853,
+    "recall": 0.8105779230426385,
+    "precision": 0.2337317397078353
+  },
+  "files_saved": {
+    "threshold_metrics_csv": "threshold_metrics.csv",
+    "final_results_table_csv": "final_results_table.csv",
+    "final_metrics_json": "final_metrics.json",
+    "figures": [
+      "final_confusion_matrix_t0p5.png",
+      "precision_recall_curve.png",
+      "metrics_vs_threshold.png"
+    ]
+  }
+}

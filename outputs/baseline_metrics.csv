@@ -1,0 +1,2 @@
+model,f1,recall,precision,pr_auc,n_train,n_test,positive_rate_train,positive_rate_test
+XGBoost (baseline),1.0,1.0,1.0,1.0,154164,38542,0.17465166965050205,0.17464065175652535

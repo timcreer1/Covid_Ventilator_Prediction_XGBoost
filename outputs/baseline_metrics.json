@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "model": "XGBoost (baseline)",
+  "f1": 1.0,
+  "recall": 1.0,
+  "precision": 1.0,
+  "pr_auc": 1.0,
+  "n_train": 154164,
+  "n_test": 38542,
+  "positive_rate_train": 0.17465166965050205,
+  "positive_rate_test": 0.17464065175652535,
+  "model_meta": {
+    "scale_pos_weight": 4.725682451253482
+  }
+}
